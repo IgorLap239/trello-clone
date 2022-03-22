@@ -31,16 +31,7 @@ const CheckList = ({ title,
 
   useEffect (
     () => {
-      checkboxes.map((item)=>{
-        if (item.listId === id) {
-          if (listCheckboxes.indexOf(item) === -1) {
-            setListCheckboxes((prevState)=>{
-            return [...prevState, item];
-            })
-          }
-        }
-        return null;
-      })
+      setListCheckboxes(checkboxes.filter((item) => item.listId === id))
     },
     [checkboxes]
   );
