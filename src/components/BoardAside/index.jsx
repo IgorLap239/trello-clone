@@ -18,7 +18,7 @@ const BoardAside = ({ username }) => (
         </button>
       </div>
 
-      <!--<Nav.Link href="" className={styles.link}>
+      {/*<Nav.Link href="" className={styles.link}>
         <i className={`bi bi-kanban-fill ${styles.rightIconIndent}`} />
         Boards
       </Nav.Link>
@@ -26,7 +26,7 @@ const BoardAside = ({ username }) => (
       <Nav.Link eventKey="link-2" className={styles.link}>
         <i className={`bi bi-gear-fill ${styles.rightIconIndent}`} />
         Settings
-      </Nav.Link>-->
+      </Nav.Link>*/}
     </Nav>
   </div>
 );
